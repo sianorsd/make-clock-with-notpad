@@ -1,0 +1,19 @@
+# make-clock-with-notpad
+how to make clock open it on the cmd
+open note pad
+'''''''''''''''''''''''''''''''''''''''''''''''''
+@echo off
+title clock
+@mode con cols-35 lines-7
+color 7
+:main
+cls
+echo.
+echo time:%time%
+echo.
+echo date:%date%
+echo.
+ping -n 2 0.0.0.0 >nul
+goto main
+'''''''''''''''''''''''''''''''''''''''''''''''''''''
+paste this code in note pad  after that save as it with  .Bat  and run the bat file
